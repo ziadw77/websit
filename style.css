@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Oswald', sans-serif;;
+}
+html{
+    font-size: 1.2rem;
+    background-color: rgb(26, 24, 21);
+}
+.head{
+    margin:4%;
+    padding:16px;
+    color: aliceblue;
+    display: block;
+    
+    
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 2.2rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+    
+   
+
+  nav ul a{
+    text-decoration: none;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 0.8rem;
+    color: aliceblue;
+    transition: 0.4s;
+    
+}
+nav ul a:hover{
+    color: red;
+}
+center{
+    display: flex;
+}
+.text{
+    margin: 4%;
+    position: relative;
+    top:150px;
+    
+    
+}
+h3{
+    color:rgb(186, 199, 211);
+    padding: 0%;
+   
+}
+.hh{
+    font-size: 2.3rem;
+    color: azure;
+}
+span{
+    color:red;
+}
+h4{
+    color: azure;
+}
+.social{
+    margin-top:6.5rem;
+    padding: 4%;
+}
+.social img{
+    margin-right: 2.5rem;
+    width:2.2rem;
+}
+
+.photo img{
+    position: relative;
+    left: 70%;
+    bottom:295px;
+    width: 400px;
+}
